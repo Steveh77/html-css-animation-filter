@@ -139,6 +139,38 @@
     width: 60px;
     height: 20px;
 }
+.ex-12-button:hover .ex-12-top-white {
+    animation: es-12-test-top 2s linear;
+}
+@keyframes es-12-test-top {
+    0%{
+        left: 20px;
+    }
+    50%{
+        left: 90px;
+    }
+    100%{
+        left: 20px;
+    }
+    
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: es-12-test-bottom 2s linear;
+}
+@keyframes es-12-test-bottom {
+    0%{
+        right: 20px;
+    }
+    50%{
+        right: 90px;
+    }
+    100%{
+        right: 20px;
+    }
+    
+}
+
+/* ES-13 */
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
@@ -147,3 +179,4 @@
     width: 60px;
     height: 20px;
 }
+
